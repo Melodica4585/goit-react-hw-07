@@ -7,6 +7,7 @@
     align-items: center;
     border-radius: 15px;
     border: 1px #858080a7 solid;
+    background-color: rgb(240, 246, 151);
   }
   
   .info {
@@ -21,4 +22,6 @@
 
   .btn {
     margin-top: 10px;
+    padding: 10px 12px;
+    background-color: #fffafa;
   }
