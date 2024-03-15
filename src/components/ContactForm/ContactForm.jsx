@@ -22,7 +22,7 @@ export const ContactForm = () => {
   return (
     <div className={css.container}>
       <Formik
-        initialValues={{ name: '', number: '' }}
+        initialValues={{ name: '', phone: '' }}
         onSubmit={(values, action) => {
           dispatch(addContact(values));
           action.resetForm();
